@@ -22,12 +22,9 @@ if(require.main == module){
   var exec = require('child_process').exec
 
   exports.find = function (path,paths,cb){
-//    console.log(arguments)
     if(!Array.isArray(paths))
       paths = [paths]
     var c = exec('node ' + __filename + " " + paths.join(' '), {cwd: path}, function (err,stdout){
-      console.log(JSON.parse(stdout))
-
       if(err) cb (err)
 
       var data 

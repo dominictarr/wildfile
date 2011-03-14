@@ -11,6 +11,11 @@
   "directories": {
     "lib": "."
   },
+  "devDependencies":{
+    "meta-test" : ">=0.0.2"
+  , "ctrlflow": "*"
+  , "it-is": "*"
+  },
   "scripts": {
     "test": "meta-test test/*.js"
   },
