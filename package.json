@@ -1,0 +1,23 @@
+{
+  "name": "wildfile",
+  "description": "expand path/*/with*/wildcards.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/wildfile",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/wildfile.git"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)",
+  "directories": {
+    "lib": "."
+  },
+  "scripts": {
+    "test": "meta-test test/*.js"
+  },
+  "engines": {
+    "node": ">=0.2.0"
+  },
+  "files": [
+    ""
+  ]
+}
